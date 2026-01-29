@@ -34,3 +34,7 @@ project.xcworkspace
 
 *.mp4
 *.gif
+
+.clj-kondo
+.lsp
+.direnv
