@@ -1,18 +1,11 @@
 {:paths ["src"
-         ;; "classes" "generated_classes" "library/classes"
+         "classes" "generated_classes" "library/classes"
 ]
  :deps {org.clojure/clojure {:mvn/version "1.12.0"}
         com.phronemophobic/scify {:mvn/version "1.0"}
         org.clojure/data.json {:mvn/version "2.5.0"}
-        cnuernber/dtype-next {;; :mvn/version "10.113"
-                              :local/root "../dtype-next"
-                              }
-        ;; cnuernber/dtype-next           {:mvn/version "9.021"
-        ;;                                 ;; :local/root "../dtype-next"
-        ;;                                 }
-        net.java.dev.jna/jna           {:mvn/version "5.14.0"}
-        }
- 
+        cnuernber/dtype-next {:mvn/version "11.004"}
+        net.java.dev.jna/jna {:mvn/version "5.14.0"}}
 
  :aliases
  {:test {:extra-paths ["test"]
